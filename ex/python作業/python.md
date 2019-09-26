@@ -73,9 +73,21 @@ print(my_numbers)
 
 ### 程式設計題:完成等差數列的總和計算:1+5+9+13+ ...+81
 ```
-
+number = 0
+for n in range(1,82,4):
+  number += n
+print(number)
+```
+```
+答案是:861
 ```
 ### 程式設計題:完成等差數列的積和計算:1*5*9*13+ ...*1
+```
+number = 1
+for n in range(1,34,4):
+  number *= n
+print(number)
+```
 ```
 答案是:4996616625
 ```
