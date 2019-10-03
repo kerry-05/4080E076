@@ -1,9 +1,8 @@
 # ls
-
+```
 Usage: ls [OPTION]... [FILE]...
 List information about the FILEs (the current directory by default).
 Sort entries alphabetically if none of -cftuvSUX nor --sort is specified.
-
 
 Mandatory arguments to long options are mandatory for short options too.
   -a, --all                  do not ignore entries starting with .
@@ -118,3 +117,7 @@ Exit status:
 GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
 Full documentation at: <https://www.gnu.org/software/coreutils/ls>
 or available locally via: info '(coreutils) ls invocation'
+
+
+
+```
