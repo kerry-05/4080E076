@@ -31,3 +31,33 @@ Which of the following=何者最有可能
 答案：Ｃ
 
 ```
+```
+5. Juanita is a network administrator for a small accounting firm. The users on her network
+are complaining(抱怨) of slow connectivity(很慢的連線). When she examines the firewall logs(日誌),
+she observes a large number of half-open connections. What best describes this attack?
+
+A. DDoS 分散式阻斷攻擊
+B. SYN flood 半開放攻擊
+C. Buffer overflow  緩衝區溢位
+D. ARP poisoning
+
+large number of half-open connections(一堆半開放的連線)
+
+答案：Ｂ
+
+```
+```
+10. Your company outsourced(外包) development of an accounting application to a local programming
+firm. After three months of using the product, one of your accountants(會計師) accidently
+discovers a way to log in(登入) and bypass(繞過) all security and authentication(認證). 
+
+What best describes this?
+
+A. Logic bomb 邏輯炸彈
+B. Trojan horse  特洛伊木马
+C. Backdoor 後門程式
+D. Rootkit 隱藏其他程式进程的軟體
+
+答案：Ｂ
+
+```
