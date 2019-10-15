@@ -74,3 +74,50 @@ D. Rootkit 隱藏其他程式进程的軟體
 答案：Ｂ
 
 ```
+```
+96. When a multithreaded application does not properly handle various threads accessing a
+common value, what flaw is this?
+A. Memory leak
+B. Buffer overflow
+C. Integer overflow
+D. Race condition
+```
+```
+97. Acme Company is using smart cards that use near-field communication (NFC) rather than
+needing to be swiped. This is meant to make physical access to secure areas more secure.
+What vulnerability might this also create?
+A. Tailgating
+B. Eavesdropping
+C. IP spoofing
+D. Race conditions
+```
+```
+98. John is responsible for physical security at a large manufacturing plant. Employees all use
+a smart card in order to open the front door and enter the facility. Which of the following
+is a common way attackers would circumvent this system?
+A. Phishing
+B. Tailgating
+C. Spoofing the smart card
+D. RFID spoofing
+```
+```
+99. Which of the following is the term for an attack wherein malware inserts itself as a
+library, such as a DLL, between an application and the real system library the application
+is attempting to communicate with?
+A. Application spoofing
+B. Jamming
+C. Evil twin
+D. Shimming
+```
+```
+100. You are responsible for incident response at Acme Corporation. You have discovered that
+someone has been able to circumvent the Windows authentication process for a specific
+network application. It appears that the attacker took the stored hash of the password and
+sent it directly to the backend authentication service, bypassing the application. What type
+of attack is this?
+A. Hash spoofing
+B. Evil twin
+C. Shimming
+D. Pass the hash
+
+```
