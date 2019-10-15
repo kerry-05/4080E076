@@ -76,38 +76,52 @@ D. Rootkit 隱藏其他程式进程的軟體
 ```
 ```
 96. When a multithreaded application does not properly handle various threads accessing a
-common value, what flaw is this?
-A. Memory leak
-B. Buffer overflow
-C. Integer overflow
-D. Race condition
+common value, what flaw is this? (多線程應用程序無法正確處理各種線程)
+
+A. Memory leak 內存洩漏
+B. Buffer overflow 緩衝區溢出
+C. Integer overflow 整數溢出
+D. Race condition 競爭危害
+
+答案：D
 ```
 ```
 97. Acme Company is using smart cards that use near-field communication (NFC) rather than
 needing to be swiped. This is meant to make physical access to secure areas more secure.
-What vulnerability might this also create?
-A. Tailgating
-B. Eavesdropping
-C. IP spoofing
-D. Race conditions
+What vulnerability might this also create? (智能卡使用的是近場通信（NFC），而不是需要刷卡，這會造成什麼漏洞？)
+
+A. Tailgating 尾板
+B. Eavesdropping 竊聽
+C. IP spoofing IP欺騙
+D. Race conditions 競爭危害
+
+答案：B
 ```
 ```
 98. John is responsible for physical security at a large manufacturing plant. Employees all use
 a smart card in order to open the front door and enter the facility. Which of the following
 is a common way attackers would circumvent this system?
-A. Phishing
-B. Tailgating
-C. Spoofing the smart card
-D. RFID spoofing
+(用智能卡以打開前門並進入設施。 以下哪一個是攻擊者規避此系統的常見方法？)
+
+A. Phishing 網絡釣魚
+B. Tailgating 尾板
+C. Spoofing the smart card 欺騙智能卡
+D. RFID spoofing RFID欺騙
+
+答案：C
 ```
 ```
 99. Which of the following is the term for an attack wherein malware inserts itself as a
 library, such as a DLL, between an application and the real system library the application
 is attempting to communicate with?
-A. Application spoofing
-B. Jamming
-C. Evil twin
-D. Shimming
+(其中惡意軟件將自身插入為應用程序與實際系統庫之間的DLL之類的庫試圖與之溝通？)
+
+A. Application spoofing 應用程序欺騙
+B. Jamming 干擾
+C. Evil twin 雙面惡魔
+D. Shimming 側錄
+
+答案：Ｃ
 ```
 ```
 100. You are responsible for incident response at Acme Corporation. You have discovered that
@@ -115,9 +129,13 @@ someone has been able to circumvent the Windows authentication process for a spe
 network application. It appears that the attacker took the stored hash of the password and
 sent it directly to the backend authentication service, bypassing the application. What type
 of attack is this?
-A. Hash spoofing
-B. Evil twin
-C. Shimming
-D. Pass the hash
 
+（利用了存儲的密碼哈希值和將其直接發送到後端身份驗證服務，從而繞過該應用程序。 什麼類型這是進攻嗎？）
+
+A. Hash spoofing 哈希 欺騙攻擊
+B. Evil twin 雙面惡魔
+C. Shimming  側錄
+D. Pass the hash 傳遞票證攻擊
+
+答案：　Ａ
 ```
