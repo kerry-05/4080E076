@@ -31,6 +31,19 @@ Which of the following=何者最有可能
 答案：Ｃ
 
 ```
+
+```
+3. You are a security administrator for a medium-sized bank. You have discovered a piece of
+software on your bank’s database server that is not supposed to be there. It appears that
+the software will begin deleting database files if a specific employee is terminated. What
+best describes this?
+
+A. Worm
+B. Logic bomb
+C. Trojan horse
+D. Rootkit
+
+```
 ```
 5. Juanita is a network administrator for a small accounting firm. The users on her network
 are complaining(抱怨) of slow connectivity(很慢的連線). When she examines the firewall logs(日誌),
