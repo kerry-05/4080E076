@@ -37,32 +37,6 @@ cmath.sqrt(-1)
 ```
 
 
-```
-
-```
-
-
-```
-
-```
-
-
-```
-
-```
-
-
-```
-
-```
-
-
-```
-
-```
-
-
-
 # 字串
 
 ```
@@ -111,6 +85,96 @@ x = "Goodbye\n"
 x = x[:-1]
 x
 ```
+```
+len("Goodbye")
+```
+### 基本的字串操作
+```
+x = "Hello " + "Mydeargreatteacher"
+x
+```
+```
+8 * "x"
+```
+### Unicode轉義字元
+```
+unicode_a ='\N{LATIN SMALL LETTER A}'
+unicode_a
+```
+```
+unicode_a_with_acute = '\N{LATIN SMALL LETTER A WITH ACUTE}'      
+unicode_a_with_acute
+```
+```
+"\u00E1"
+```
+### 字串處理常用的method(方法)
+```
+# 使用join()連接字串
+"".join(["Separated", "by", "nothing"])
+
+" ".join(["join", "puts", "spaces", "between", "elements"])
+
+"::".join(["Separated", "with", "colons"])
+```
+```
+# 使用split()切割字串
+x = "You\t\t can have tabs\t\n \t and newlines \n\n mixed in"
+x.split()
+
+x = "Mississippi"
+x.split("ss")
+
+x = 'a b c d'
+x.split(' ', 1)
+
+['a', 'b c d']
+x.split(' ', 2)
+
+['a', 'b', 'c d']
+x.split(' ', 9)
+```
+```
+# 使用strip(()、lstrip()、rstrip()去除多餘空白
+
+底下程式執行後各行結果為何?
+x = "  Hello,    World\t\t "
+x.strip()
+x.lstrip()
+x.rstrip()
+
+
+底下程式執行後各行結果為何?
+x = "www.python.org"
+x.strip("w")  
+x.strip("gor")       
+x.strip(".gorw")  
+```
+```
+底下程式執行後各行結果為何?
+x = "123"
+x.isdigit()
+x.isalpha()
+
+底下程式執行後各行結果為何?
+x = "M"
+x.islower()
+x.isupper()
+```
+```
+# 使用內建函數:用int() 和float()函示將字串轉換為數字
+
+下列程式執行後結果為何?何者有誤?
+float('123.456')
+float('xxyy') 
+
+int('3333')
+int('123.456') 
+int('10000', 8)             
+int('101', 2)
+int('ff', 16)
+int('123456', 6)   
+```
 ### while loop
 ```
 7根據底下程式,下列敘述何者為非?[複選題]
@@ -127,6 +191,4 @@ while index < len(names):
 (B)names[1]是 龍 
 (C)程式執行完後,index最後為2
 (D)如果把條件改成 index > len(names),中index最後為2
-
-答案：B D
 ```
