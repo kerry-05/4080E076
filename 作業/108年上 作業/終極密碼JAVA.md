@@ -1,3 +1,5 @@
+＃JAVA　終極密碼
+```
 import java.util.Scanner;
 
 public class NumberGuess {
@@ -28,3 +30,4 @@ public class NumberGuess {
     }
 
 }
+```
