@@ -1,3 +1,5 @@
+# python 1A2B
+```
 import random
 x=random.sample('1234567890',4)
 print (x)
@@ -27,3 +29,4 @@ while play:
     print(a,"A", b, "B")
     if a == 4:
         play = False
+```
