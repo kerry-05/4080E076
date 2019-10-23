@@ -105,7 +105,7 @@ is a common way attackers would circumvent this system?
 
 A. Phishing 網絡釣魚
 B. Tailgating 尾板
-C. Spoofing the smart card 欺騙智能卡
+C. Spoofing the smart card 欺騙智慧卡
 D. RFID spoofing RFID欺騙
 
 答案：C
@@ -130,12 +130,12 @@ network application. It appears that the attacker took the stored hash of the pa
 sent it directly to the backend authentication service, bypassing the application. What type
 of attack is this?
 
-（利用了存儲的密碼哈希值和將其直接發送到後端身份驗證服務，從而繞過該應用程序。 什麼類型這是進攻嗎？）
+（利用了存儲的密碼哈希值和將其直接發送到後端身份驗證服務，從而繞過該應用程序。 這是什麼類型進攻？
 
 A. Hash spoofing 哈希 欺騙攻擊
 B. Evil twin 雙面惡魔
 C. Shimming  側錄
 D. Pass the hash 傳遞票證攻擊
 
-答案：　Ａ
+答案：　D
 ```
