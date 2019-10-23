@@ -1,4 +1,4 @@
-＃JAVA　終極密碼
+# JAVA　終極密碼
 ```
 import java.util.Scanner;
 
