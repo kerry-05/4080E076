@@ -59,12 +59,13 @@ Layer-2: 資料鏈路層===>  邏輯鏈路控制（LLC, Logical Link Control）
                 媒介存取控制（MAC, Media Access Control）
 Layer-1: 實體層
 ```
+
 ```
 IEEE 802.1：高層區域網路協定（Bridging (networking) and Network Management）
 IEEE 802.2：邏輯鏈路控制（Logical link control）
 
 區域網路用的協定:
-**[超級重要]IEEE 802.3：乙太網路（Ethernet**
+[超級重要]IEEE 802.3：乙太網路（Ethernet)
 IEEE 802.4：權杖匯流排（Token bus）
 IEEE 802.5：權杖環（Token-Ring）
 
@@ -112,17 +113,18 @@ ICMP 封包格式，其各欄位功能如下：
 ● 訊息說明（Message description）：依照不同的控制訊息，而有不同的說明方式。
 ```
 #### Message Type
+** 0'3'5'8**
 ```
     ICMP 訊息功能
 
-**[重要]0  Echo Reply（回應答覆）**
-**[重要]3  Destination Unreachable（目的地無法到達）**
+[重要]0  Echo Reply（回應答覆）
+[重要]3  Destination Unreachable（目的地無法到達）
 
 4 Source Quench（來源抑制）
 
-**[重要]5 Redirect（改變傳輸路徑）**
+[重要]5 Redirect（改變傳輸路徑）
 
-**[重要]8 Echo Request（回應要求）**
+[重要]8 Echo Request（回應要求）
 
 9 Router Advertisement（路由器宣傳）
 10 Router Solicitation（路由器懇請）
