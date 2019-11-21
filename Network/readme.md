@@ -96,6 +96,12 @@ IEEE 802.21：媒介獨立換手（Media Independent Handover）
 IEEE 802.22：無線區域網（Wireless Regional Area Network）
 IEEE 802.23：緊急服務工作群組（Emergency Services Working Group），2010年3月新發布
 ```
+# 網際層（Internet Layer）[OSI 參考模式的網路層]協定:
+```
+● IP（Internet Protocol）：網際通訊協定。
+● ARP（Address Resolution Protocol）：位址解析協定。
+● RARP（Reverse Address Resolution Protocol）：反向位址解析協定。
+```
 ### ARP
 ```
 Address Resolution Protocol (ARP) - Explained with example | Computer network | TechTerms
