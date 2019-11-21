@@ -48,9 +48,11 @@ https://www.youtube.com/watch?v=vv4y_uOneC0
 
 ### TCP/IP
 ```
+UDP (不可靠的封包傳輸，不進行錯誤重傳。)
 
+TCP(可靠的封包傳輸，進行錯誤重傳。)
 ```
-
+![TCP UDP](https://raw.githubusercontent.com/kerry-05/4080E076/master/Network/resource/tcp_header.gif)
 ### IEEE 802
 ```
 https://zh.wikipedia.org/wiki/IEEE_802
