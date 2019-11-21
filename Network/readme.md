@@ -3,11 +3,14 @@
 Markdown文件
 https://markdown.tw/
 ```
-# 
+
+#  
+
 ```
 Network Types: LAN, WAN, PAN, CAN, MAN, SAN, WLAN
 https://www.youtube.com/watch?v=4_zSIXb7tLQ
 ```
+
 ```
 Network Topologies (Star, Bus, Ring, Mesh, Ad hoc, Infrastructure, & Wireless Mesh Topology)
 https://www.youtube.com/watch?v=zbqrNg4C98U
@@ -17,16 +20,24 @@ https://www.youtube.com/watch?v=zbqrNg4C98U
 What is a DMZ? (Demilitarized Zone)
 https://www.youtube.com/watch?v=dqlzQXo1wqo
 ```
+
+
 ```
 NAT Explained - Network Address Translation
 https://www.youtube.com/watch?v=FTUV0t6JaDA
 ```
 
+
 ```
 ICMP 通訊協定
 http://www.tsnien.idv.tw/Network_WebBook/chap13/13-5%20ICMP%20%E9%80%9A%E8%A8%8A%E5%8D%94%E5%AE%9A.html
+
 ```
+
+
 # 網路硬體
+
+
 
 ```
 Layer-1:repeater(1-1), hub(1-N)
@@ -40,23 +51,48 @@ Layer-7: L7 switch, proxy
 
 # 網路協定:
 
+```
+必考問答題: Protocol
+
+名詞解釋題:NFC RFID
+
+近距離無線通訊（英語：Near-field communication，NFC）
+https://en.wikipedia.org/wiki/Radio-frequency_identification
+
+```
+
 ### OSI MODEL
+
+
 ```
 OSI Model Explained | OSI Animation | Open System Interconnection Model | OSI 7 layers | TechTerms
 https://www.youtube.com/watch?v=vv4y_uOneC0
 ```
 
 ### TCP/IP
+
+
 ```
 UDP (不可靠的封包傳輸，不進行錯誤重傳。)
 
 TCP (可靠的封包傳輸，進行錯誤重傳。)
+
 ```
+
 ![TCP UDP](https://raw.githubusercontent.com/kerry-05/4080E076/master/Network/resource/tcp_header.gif)
+
+
 ### IEEE 802
+
+
 ```
+
 https://zh.wikipedia.org/wiki/IEEE_802
+
 ```
+
+
+
 ```
 IEEE 802中定義的服務和協定限定在OSI模型的最低兩層（即實體層和資料鏈路層）。
 
@@ -65,7 +101,12 @@ IEEE 802將OSI的資料鏈路層分為兩個子層:
 Layer-2: 資料鏈路層===>  邏輯鏈路控制（LLC, Logical Link Control）
                 媒介存取控制（MAC, Media Access Control）
 Layer-1: 實體層
+
 ```
+
+
+
+
 
 ```
 IEEE 802.1：高層區域網路協定（Bridging (networking) and Network Management）
@@ -97,24 +138,42 @@ IEEE 802.20：移動寬頻無線接入（Mobile Broadband Wireless Access）
 IEEE 802.21：媒介獨立換手（Media Independent Handover）
 IEEE 802.22：無線區域網（Wireless Regional Area Network）
 IEEE 802.23：緊急服務工作群組（Emergency Services Working Group），2010年3月新發布
+
 ```
+
+
+
 # 網際層（Internet Layer）[OSI 參考模式的網路層]協定:
+
+
+
 ```
 ● IP（Internet Protocol）：網際通訊協定。
 ● ARP（Address Resolution Protocol）：位址解析協定。
 ● RARP（Reverse Address Resolution Protocol）：反向位址解析協定。
+
 ```
+
+
+
 ### ARP
+
+
 ```
 Address Resolution Protocol (ARP) - Explained with example | Computer network | TechTerms
 https://www.youtube.com/watch?v=EC1slXCT3bg
 
 MAC Address
+
 ```
+
+
 ```
 位址解析協定（Address Resolution Protocol, ARP）來查問欲傳送之目的主機的MAC位址==已知的 IP 位址查問其相對應的網路實體位
 反向位址解析協定（Reverse Address Resolution Protocol, RARP）。由已知的網路實體位址查詢其相對應的 IP 位址
 ```
+
+
 ```
 arp -a
 C:\Users\KSUIE>arp -a
@@ -183,22 +242,32 @@ C:\Users\KSUIE>arp -a
   224.0.0.252           01-00-5e-00-00-fc     靜態
   239.255.255.250       01-00-5e-7f-ff-fa     靜態
 ```
+
 ### ICMP
+
 ```
 Internet Control Message Protocol
+
 ```
+
 #### ICMP Message Format封包格式:
 
+
 ![ICMP 封包格式](https://raw.githubusercontent.com/kerry-05/4080E076/master/Network/resource/icmp_header.gif)
+
 ```
 ICMP 封包格式，其各欄位功能如下：
 ● 訊息型態（Message Type）：表示該 ICMP 所欲控制之訊息型態，共有 13 種型態，訊息型態之型態代表值如表 5-2 所示。
 ● 編碼（Code）：對各種訊息型態進一步說明工作內容。
 ● 檢查集檢查碼（Checksum）：對該封包檢查集錯誤偵測。
 ● 訊息說明（Message description）：依照不同的控制訊息，而有不同的說明方式。
+
 ```
+
 #### Message Type
 **0'3'5'8很重要**
+
+
 ```
     ICMP 訊息功能
 
@@ -221,18 +290,25 @@ ICMP 封包格式，其各欄位功能如下：
 16 Information Reply（資訊回覆）（停用）
 17 Address Mask Request（位址遮罩要求）
 18 Address Mask Reply（位址遮罩回覆）
+
 ```
+
 ### ICMP 封裝
 
 ![ICMP 封裝](https://raw.githubusercontent.com/kerry-05/4080E076/master/Network/resource/icmp_encap.gif)
 
 ### ICMP 常用指令
+
+
 ```
 ping 
 tracert| Traceroute
 如何使用 TRACERT 疑難排解 Windows 中的 TCP/IP 問題
 https://support.microsoft.com/zh-tw/help/314868/how-to-use-tracert-to-troubleshoot-tcp-ip-problems-in-windows
 ```
+
+
+
 ```
 tracert www.pchome.com.tw
 
@@ -280,10 +356,15 @@ tracert www.pchome.com.tw
   3    <1 ms    <1 ms    <1 ms  www.ksu.edu.tw [120.114.100.65]
 
 追蹤完成。
+
+
 ```
 ![崑山](https://raw.githubusercontent.com/kerry-05/4080E076/master/Network/resource/%E6%9C%AA%E5%91%BD%E5%90%8D.png)
 
+
+
 ### TCP vs UDP 
+
 
 ```
 TCP vs UDP Comparison
@@ -292,18 +373,23 @@ https://www.youtube.com/watch?v=uwoD5YsGACg
 
 
 ### SSL, TLS, HTTP, HTTPS 
+
 ```
 SSL, TLS, HTTP, HTTPS Explained
 https://www.youtube.com/watch?v=hExRDVZHhig
 ```
 
+
 ###  Proxy Server
+
 ```
 What is a Proxy Server?
 https://www.youtube.com/watch?v=5cPIukqXe5w
 ```
 
+
 ### FTP (File Transfer Protocol), SFTP, TFTP Explained.
+
 ```
 FTP (File Transfer Protocol), SFTP, TFTP Explained.
 https://www.youtube.com/watch?v=tOj8MSEIbfA
