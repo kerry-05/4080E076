@@ -103,7 +103,7 @@ Internet Control Message Protocol
 ```
 #### ICMP Message Format封包格式:
 
-![ICMP 封包格式](icmp_encap.gif)
+![ICMP 封包格式](https://raw.githubusercontent.com/kerry-05/4080E076/master/Network/resource/icmp_header.gif)
 ```
 ICMP 封包格式，其各欄位功能如下：
 ● 訊息型態（Message Type）：表示該 ICMP 所欲控制之訊息型態，共有 13 種型態，訊息型態之型態代表值如表 5-2 所示。
@@ -137,7 +137,7 @@ ICMP 封包格式，其各欄位功能如下：
 ```
 ### ICMP 封裝
 
-![ICMP 封裝](icmp_encap.gif)
+![ICMP 封裝](https://raw.githubusercontent.com/kerry-05/4080E076/master/Network/resource/icmp_encap.gif)
 
 ### ICMP 常用指令
 ```
